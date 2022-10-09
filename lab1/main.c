@@ -15,7 +15,7 @@ int my_printf(char *format_string, char *param){
 			putchar(format_string[i]);
 		}
 		else
-			putchar((format_string[i]);
+			putchar((format_string[i]));
 
 	}
 	puts("");
