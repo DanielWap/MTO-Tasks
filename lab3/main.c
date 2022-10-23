@@ -20,12 +20,14 @@ int my_printf(char *format_string, char *param){
 			putchar((format_string[i]));
 	}
 	}
+		puts("");
+		return 0;
 }
 
 int main(int argc, char *argv[]){
 	char buf[1024],buf2[1024];
-	while(fgets(buf, sizeof buf, stdin)){
-		fgets(buf2, sizeof buf2, stdin);
+	while(gets(buf)){
+		gets(buf2);
 		my_printf(buf,buf2);
 	}
 	return 0;
