@@ -4,21 +4,20 @@
 
 int my_printf(char *format_string, char *param){
 	for(int i=0;i<strlen(format_string);i++){
-			if((format_string[i] == '#') && (format_string[i+1] == 'k')){
+		if((format_string[i] == '#') && (format_string[i+1] == 'k')){
 			i++;
 			printf("%s",param);
 	}
-	else{
-
-		if((format_string[i] >= 'A') && (format_string[i] <= 'Z')){
-			putchar((char) tolower(format_string[i]));
-		}
-		else if((format_string[i] >= 'a') && (format_string[i] <= 'z')){
-			putchar((char) toupper(format_string[i]));
-		}
-		else
-			putchar((format_string[i]));
-	}
+		else{
+			if((format_string[i] >= 'A') && (format_string[i] <= 'Z')){
+				putchar((char) tolower(format_string[i]));
+			}
+			else if((format_string[i] >= 'a') && (format_string[i] <= 'z')){
+				putchar((char) toupper(format_string[i]));
+			}
+			else
+				putchar((format_string[i]));
+		}	
 	}
 		puts("");
 		return 0;
