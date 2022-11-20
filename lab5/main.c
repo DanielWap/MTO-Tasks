@@ -4,16 +4,18 @@
 
 int my_printf(char *format_string, char *param){
 	for(int i=0;i<strlen(format_string);i++){
-		if((format_string[i] == '#') && (format_string[i+1] == 'k')){
+		if((format_string[i] == '#') && (format_string[i+1] == 'X' && format_string[i+2] == 'g')){
 			i++;
-			printf("%s",param);
+			printf("%Xd",param);
 	}
 		else{
-			if((format_string[i] >= 'A') && (format_string[i] <= 'Z')){
-				putchar((char) tolower(format_string[i]));
+			if(format_string[i] > 0){
+				int x = format_string[i] - 1;
+				putchar((char)(x));
 			}
-			else if((format_string[i] >= 'a') && (format_string[i] <= 'z')){
-				putchar((char) toupper(format_string[i]));
+			else if(format_string[i] == 0){
+				int x = 9;
+				putchar((char)(x));
 			}
 			else
 				putchar((format_string[i]));
