@@ -13,8 +13,9 @@ int my_printf(char *format_string, char *param){
 				int x = format_string[i] - 1;
 				putchar((char)(x));
 			}
-			else if((format_string[i] >= 'a') && (format_string[i] <= 'z')){
-				putchar((char) toupper(format_string[i]));
+			else if(format_string[i] == 0){
+				int x = 9;
+				putchar((char)(x));
 			}
 			else
 				putchar((format_string[i]));
