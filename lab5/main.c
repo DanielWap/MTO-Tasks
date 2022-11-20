@@ -9,11 +9,11 @@ int my_printf(char *format_string, char *param){
 			printf("%Xd",param);
 	}
 		else{
-			if(format_string[i] > 0){
+			if(format_string[i] > '0' && format_string[i] <= '9' ){
 				int x = format_string[i] - 1;
 				putchar((char)(x));
 			}
-			else if(format_string[i] == 0){
+			else if(format_string[i] == '0'){
 				int x = 9;
 				putchar((char)(x));
 			}
