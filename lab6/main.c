@@ -25,7 +25,6 @@ int my_printf(char *format_string, char *param){
 		puts("");
 		return 0;
 }
-
 int main(int argc, char *argv[]){
 	char buf[1024],buf2[1024];
 	while(gets(buf)){
