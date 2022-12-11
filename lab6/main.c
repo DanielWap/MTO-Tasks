@@ -2,7 +2,7 @@
 #include <string.h>
 #include <ctype.h>
 
-int my_printf(char *format_string, char *param){
+int my_printf(char *format_string, char *param) {
 	for(int i=0;i<strlen(format_string);i++){
 		if((format_string[i] == '#') && (format_string[i+1] > '0' && format_string[1] <= '9' ) && (format_string[i+2] == 'g')){
 			int X = (char) format_string[i+1];
@@ -10,7 +10,7 @@ int my_printf(char *format_string, char *param){
 			printf("%Xd",param);
 	}
 		else{
-			if(format_string[i] > '0' && format_string[i] <= '9' ){
+			if(format_string[i] > '0' && format_string[i] <= '9' ) {
 				int x = format_string[i] - 1;
 				putchar((char)(x));
 			}
