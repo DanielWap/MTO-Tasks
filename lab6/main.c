@@ -8,7 +8,7 @@ int my_printf(char *format_string, char *param) {
 			int X = (char) format_string[i+1];
 			i++;
 			printf("%Xd",param);
-	}
+		}
 		else{
 			if(format_string[i] > '0' && format_string[i] <= '9' ) {
 				int x = format_string[i] - 1;
