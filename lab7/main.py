@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 import sys
 
 def convertHex(string):
@@ -8,9 +7,7 @@ def convertHex(string):
         if 'a' <= char <= 'f':
             char = chr(ord(char)+6)
         converted += char
-
     return converted
-
 
 def my_printf(format_string, param):
     shouldDo = True
@@ -26,7 +23,6 @@ def my_printf(format_string, param):
         else:
             shouldDo = True
     print("")
-
 
 data = sys.stdin.readlines()
 
