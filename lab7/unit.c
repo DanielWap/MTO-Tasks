@@ -24,6 +24,7 @@ int main(int argc, char *argv[]){
 			}
 			total++;
 		}
+		
 		fclose(answers);
 		fclose(output);
 	}
