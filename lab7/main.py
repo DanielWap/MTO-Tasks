@@ -1,26 +1,26 @@
 #!/usr/bin/env python3
 import sys
 
-def convertHex(string):
-    converted = ''
+def hexadecimalConversion(string):
+    conv = ''
     for char in string:
         if 'a' <= char <= 'f':
             char = chr(ord(char)+6)
-        converted += char
-    return converted
+        conv += char
+    return conv
 
 def my_printf(format_string, param):
-    shouldDo = True
+    check = True
     for idx in range(0, len(format_string)):
-        if shouldDo:
+        if check:
             if format_string[idx] == '#' and format_string[idx+1] == 'j' and param.isnumeric():
-                hexValue = f"{int(param):x}"
-                print(convertHex(hexValue), end="")
-                shouldDo = False
+                hexadecimalValue = f"{int(param):x}"
+                print(hexadecimalConversion(hexadecimalValue), end="")
+                check = False
             else:
                 print(format_string[idx], end="")
         else:
-            shouldDo = True
+            check = True
     print("")
 
 data = sys.stdin.readlines()
