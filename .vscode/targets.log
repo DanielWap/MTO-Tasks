@@ -7,9 +7,10 @@ make.exe all -f c:\Users\Danie\OneDrive\Dokumenty\GitHub\MTO-Tasks\lab6 --print-
 # There is NO WARRANTY, to the extent permitted by law.
  
 make.exe: c:\Users\Danie\OneDrive\Dokumenty\GitHub\MTO-Tasks\lab6: Permission denied
+make.exe: *** No rule to make target 'all'.  Stop.
 
 
-# Make data base, printed on Sun Dec 18 10:28:38 2022
+# Make data base, printed on Sun Dec 18 13:31:51 2022
 
 # Variables
 
@@ -203,9 +204,9 @@ USERDOMAIN_ROAMINGPROFILE = ZENEK
 # Directories
 
 # C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (key C:/WINDOWS/System32/WindowsPowerShell/v1.0/, mtime 1651914668): 29 files, no impossibilities.
-# . (key c:/Users/Danie/OneDrive/Dokumenty/GitHub/MTO-Tasks, mtime 1670754938): 10 files, no impossibilities.
+# . (key c:/Users/Danie/OneDrive/Dokumenty/GitHub/MTO-Tasks, mtime 1671358452): 12 files, no impossibilities.
 # C:\Program Files (x86)\Common Files\Oracle\Java\javapath (key C:/Program Files (x86)/Common Files/Oracle/Java/javapath, mtime 1665129960): 5 files, no impossibilities.
-# C:\Users\Danie\AppData\Local\Microsoft\WindowsApps (key C:/Users/Danie/AppData/Local/Microsoft/WindowsApps, mtime 1671229157): 37 files, no impossibilities.
+# C:\Users\Danie\AppData\Local\Microsoft\WindowsApps (key C:/Users/Danie/AppData/Local/Microsoft/WindowsApps, mtime 1671366215): 37 files, no impossibilities.
 # C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1668845258): 9 files, no impossibilities.
 # C:\WINDOWS\System32\OpenSSH\: could not be stat'd.
 # C:\MinGW\bin (key C:/MinGW/bin, mtime 1670754468): 7 files, no impossibilities.
@@ -217,9 +218,9 @@ USERDOMAIN_ROAMINGPROFILE = ZENEK
 # C:\WINDOWS\System32\Wbem (key C:/WINDOWS/System32/Wbem, mtime 1666206930): 155 files, no impossibilities.
 # C:\Maven\apache-maven-3.8.6\bin (key C:/Maven/apache-maven-3.8.6/bin, mtime 1670768344): 8 files, no impossibilities.
 # C:\Program Files\Common Files\Oracle\Java\javapath (key C:/Program Files/Common Files/Oracle/Java/javapath, mtime 1670768121): 6 files, no impossibilities.
-# C:\WINDOWS\system32 (key C:/WINDOWS/system32, mtime 1670989166): 2789 files, no impossibilities.
+# C:\WINDOWS\system32 (key C:/WINDOWS/system32, mtime 1671357522): 2789 files, no impossibilities.
 
-# 3320 files, no impossibilities in 16 directories.
+# 3322 files, no impossibilities in 16 directories.
 
 # Implicit Rules
 
@@ -245,10 +246,7 @@ c:\Users\Danie\OneDrive\Dokumenty\GitHub\MTO-Tasks\lab6:
 #  Implicit rule search has been done.
 #  Last modified 2022-12-11 10:28:44
 #  File has been updated.
-#  Successfully 
-make.exe: *** No rule to make target 'all'.  Stop.
-
- updated.
+#  Successfully updated.
 
 # Not a target:
 .DEFAULT:
@@ -264,14 +262,14 @@ make.exe: *** No rule to make target 'all'.  Stop.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 7 (6) / strings = 3282 / storage = 50387 B / avg = 15 B
-# current buf: size = 8174 B / used = 1393 B / count = 60 / avg = 23 B
-# other used: total = 42213 B / count = 3222 / avg = 13 B
-# other free: total = 50 B / max = 14 B / min = 1 B / avg = 8 B
+# strcache buffers: 7 (6) / strings = 3284 / storage = 50401 B / avg = 15 B
+# current buf: size = 8174 B / used = 1414 B / count = 62 / avg = 22 B
+# other used: total = 42227 B / count = 3222 / avg = 13 B
+# other free: total = 57 B / max = 12 B / min = 6 B / avg = 9 B
 
-# strcache performance: lookups = 3342 / hit rate = 1%
+# strcache performance: lookups = 3344 / hit rate = 1%
 # hash-table stats:
-# Load=3282/8192=40%, Rehash=0, Collisions=1046/3342=31%
-# Finished Make data base on Sun Dec 18 10:28:38 2022
+# Load=3284/8192=40%, Rehash=0, Collisions=1048/3344=31%
+# Finished Make data base on Sun Dec 18 13:31:51 2022
 
  
