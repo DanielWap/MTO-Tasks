@@ -1,20 +1,20 @@
-TEST1 #j Number Test
+TEST1 #.1j Number Test
 132342349
-TEST2#j Number Test
+TEST2 #j Number Test
 9523445
-TEST3k#jNumber Test
+TEST3 #j Number Test
 2723456078
-TEST4 #.j Number Test
+TEST4 #.2j Number Test
 145023478
-TEST5 #k Number Test
+TEST5 #.Zj Number Test
 4562340009
 TEST6 j Number Test
 097234756
-TEST7 #j Zero Test
+TEST7 #.2j Zero Test
 0
-TEST8 #j Letter Test
+TEST8 #.2j Letter Test
 dfgdfgf
-TEST9 #j Char Test
+TEST9 #.wj Char Test
 ^&&^646&*&
-TEST10 #j Mixed Test
+TEST10 #.yj Mixed Test
 344#$67#dfg
