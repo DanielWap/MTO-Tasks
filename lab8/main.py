@@ -13,7 +13,7 @@ def my_printf(format_string, param):
     check = True
     for idx in range(0, len(format_string)):
         if check:
-            if format_string[idx] == '#' and format_string[idx+1] == 'j' and param.isnumeric():
+            if format_string[idx] == '#' and format_string[idx+1] == '.' and format_string[idx+2] == 'Z' and  format_string[idx+3] == 'j' and param.isnumeric():
                 hexadecimalValue = f"{int(param):x}"
                 print(hexadecimalConversion(hexadecimalValue), end="")
                 check = False
