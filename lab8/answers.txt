@@ -1,10 +1,10 @@
-TEST1 7k3624j Number Test
-TEST29150l5 Number Test
-TEST3kg254g44kNumber Test
-TEST4 #.j Number Test
-TEST5 #k Number Test
+TEST1 7k3624j1j Number Test
+TEST2 #j Number Test
+TEST3 #j Number Test
+TEST4 8g4k1l62j Number Test
+TEST5 #.Zj Number Test
 TEST6 j Number Test
-TEST7 0 Zero Test
-TEST8 #j Letter Test
-TEST9 #j Char Test
-TEST10 #j Mixed Test
+TEST7 o2j Zero Test
+TEST8 #.2j Letter Test
+TEST9 #.wj Char Test
+TEST10 #.yj Mixed Test
