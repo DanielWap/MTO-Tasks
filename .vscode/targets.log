@@ -7,9 +7,10 @@ make.exe all -f c:\Users\Danie\OneDrive\Dokumenty\GitHub\MTO-Tasks\lab6 --print-
 # There is NO WARRANTY, to the extent permitted by law.
  
 make.exe: c:\Users\Danie\OneDrive\Dokumenty\GitHub\MTO-Tasks\lab6: Permission denied
+make.exe: *** No rule to make target 'all'.  Stop.
 
 
-# Make data base, printed on Sun Dec 18 13:42:13 2022
+# Make data base, printed on Sun Jan 15 10:19:47 2023
 
 # Variables
 
@@ -40,6 +41,8 @@ WINDIR = C:\WINDOWS
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# environment
 ONEDRIVE = C:\Users\Danie\OneDrive
 # environment
 MAVEN_HOME = C:\Maven\apache-maven-3.8.6
@@ -54,10 +57,9 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_CWD = C:\Users\Danie\AppData\Local\GitHubDesktop\app-3.1.2
+VSCODE_CWD = C:\Users\Danie\AppData\Local\GitHubDesktop\app-3.1.3
 # environment
-PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\jdk-19.0.1\bin;C:\Maven\apache-maven-3.8.6\bin;C:\Users\Danie\A 
-ppData\Local\Microsoft\WindowsApps;C:\Users\Danie\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Danie\AppData\Local\GitHubDesktop\bin
+PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\jdk-19.0.1\bin;C:\Maven\apache-maven-3.8.6\bin;C:\Users\Danie\AppData\Local\Microsoft\WindowsApps;C:\Users\Danie\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Danie\AppData\Local\GitHubDesktop\bin
 # environment
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # environment
@@ -79,7 +81,7 @@ ELECTRON_RUN_AS_NODE = 1
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\LOCAL\crashpad_6152_TXFFJOGYIPITNGYT
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\LOCAL\crashpad_26812_RHZJBTTXHHBLKANZ
 # environment
 COMPUTERNAME = ZENEK
 # environment
@@ -97,7 +99,7 @@ VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
 VSCODE_CLI = 1
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\Danie\AppData\Roaming\Code\CachedData\1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a
+VSCODE_CODE_CACHE_PATH = C:\Users\Danie\AppData\Roaming\Code\CachedData\97dec172d3256f8ca4bfb2143f3f76b503ca0534
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
@@ -117,7 +119,7 @@ MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
 # environment
-LOCAL_GIT_DIRECTORY = C:\Users\Danie\AppData\Local\GitHubDesktop\app-3.1.2\resources\app\git
+LOCAL_GIT_DIRECTORY = C:\Users\Danie\AppData\Local\GitHubDesktop\app-3.1.3\resources\app\git
 # environment
 JAVA_HOME = C:\jdk-19.0.1
 # default
@@ -145,7 +147,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
 # environment
 OS = Windows_NT
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\2303589477d33bf3fea521c11708a9c8-1.74.1-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\2303589477d33bf3fea521c11708a9c8-1.74.3-main-sock
 # environment
 HOMEPATH = \Users\Danie
 # environment
@@ -191,11 +193,11 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-VSCODE_PID = 6152
+VSCODE_PID = 26812
 # environment
 USERDOMAIN_ROAMINGPROFILE = ZENEK
 # variable set hash-table stats:
-# Load=90/1024=9%, Rehash=0, Collisions=13/105=12%
+# Load=91/1024=9%, Rehash=0, Collisions=13/106=12%
 
 # Pattern-specific Variable Values
 
@@ -206,26 +208,23 @@ USERDOMAIN_ROAMINGPROFILE = ZENEK
 # C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (key C:/WINDOWS/System32/WindowsPowerShell/v1.0/, mtime 1651914668): 29 files, no impossibilities.
 # . (key c:/Users/Danie/OneDrive/Dokumenty/GitHub/MTO-Tasks, mtime 1671366732): 11 files, no impossibilities.
 # C:\Program Files (x86)\Common Files\Oracle\Java\javapath (key C:/Program Files (x86)/Common Files/Oracle/Java/javapath, mtime 1665129960): 5 files, no impossibilities.
-# C:\Users\Danie\AppData\Local\Microsoft\WindowsApps (key C:/Users/Danie/AppData/Local/Microsoft/WindowsApps, mtime 1671366215): 37 files, no impossibilities.
+# C:\Users\Danie\AppData\Local\Microsoft\WindowsApps (key C:/Users/Danie/AppData/Local/Microsoft/WindowsApps, mtime 1673730709): 40 files, no impossibilities.
 # C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1668845258): 9 files, no impossibilities.
 # C:\WINDOWS\System32\OpenSSH\: could not be stat'd.
 # C:\MinGW\bin (key C:/MinGW/bin, mtime 1670754468): 7 files, no impossibilities.
 # C:\jdk-19.0.1\bin (key C:/jdk-19.0.1/bin, mtime 1669466444): 125 files, no impossibilities.
 # C:\Users\Danie\AppData\Local\GitHubDesktop\bin (key C:/Users/Danie/AppData/Local/GitHubDesktop/bin, mtime 1669570503): 4 files, no impossibilities.
-# C:\WINDOWS (key C:/WINDOWS, mtime 1670989165): 117 files, no impossibilities.
-# C:\Users\Danie\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/Danie/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1671146146): 5 files, no impossibilities.
+# C:\WINDOWS (key C:/WINDOWS, mtime 1672964066): 121 files, no impossibilities.
+# C:\Users\Danie\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/Danie/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1673644761): 5 files, no impossibilities.
 # C:\Program Files\Docker\Docker\resources\bin (key C:/Program Files/Docker/Docker/resources/bin, mtime 1668698416): 14 files, no impossibilities.
 # C:\WINDOWS\System32\Wbem (key C:/WINDOWS/System32/Wbem, mtime 1666206930): 155 files, no impossibilities.
 # C:\Maven\apache-maven-3.8.6\bin (key C:/Maven/apache-maven-3.8.6/bin, mtime 1670768344): 8 files, no impossibilities.
 # C:\Program Files\Common Files\Oracle\Java\javapath (key C:/Program Files/Common Files/Oracle/Java/javapath, mtime 1670768121): 6 files, no impossibilities.
-# C:\WINDOWS\system32 (key C:/WINDOWS/system32, mtime 1671357522): 2789 files, no impossibilities.
+# C:\WINDOWS\system32 (key C:/WINDOWS/system32, mtime 1673386480): 2905 files, no impossibilities.
 
-# 3321 files, no impossibilities in 16 directories.
+# 3444 files, no impossibilities in 16 directories.
 
-# I 
-make.exe: *** No rule to make target 'all'.  Stop.
-
-mplicit Rules
+# Implicit Rules
 
 # No implicit rules.
 
@@ -265,14 +264,14 @@ c:\Users\Danie\OneDrive\Dokumenty\GitHub\MTO-Tasks\lab6:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 7 (6) / strings = 3283 / storage = 50392 B / avg = 15 B
-# current buf: size = 8174 B / used = 1393 B / count = 60 / avg = 23 B
-# other used: total = 42218 B / count = 3223 / avg = 13 B
-# other free: total = 45 B / max = 14 B / min = 1 B / avg = 7 B
+# strcache buffers: 7 (5) / strings = 3406 / storage = 52375 B / avg = 15 B
+# current buf: size = 8174 B / used = 3398 B / count = 162 / avg = 20 B
+# other used: total = 44201 B / count = 3244 / avg = 13 B
+# other free: total = 67 B / max = 34 B / min = 5 B / avg = 11 B
 
-# strcache performance: lookups = 3343 / hit rate = 1%
+# strcache performance: lookups = 3466 / hit rate = 1%
 # hash-table stats:
-# Load=3283/8192=40%, Rehash=0, Collisions=1047/3343=31%
-# Finished Make data base on Sun Dec 18 13:42:13 2022
+# Load=3406/8192=42%, Rehash=0, Collisions=1129/3466=33%
+# Finished Make data base on Sun Jan 15 10:19:47 2023
 
  

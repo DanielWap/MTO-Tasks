@@ -1,0 +1,20 @@
+TEST1 #j Number Test
+132342349
+TEST2#j Number Test
+9523445
+TEST3k#jNumber Test
+2723456078
+TEST4 #.j Number Test
+145023478
+TEST5 #k Number Test
+4562340009
+TEST6 j Number Test
+097234756
+TEST7 #j Zero Test
+0
+TEST8 #j Letter Test
+dfgdfgf
+TEST9 #j Char Test
+^&&^646&*&
+TEST10 #j Mixed Test
+344#$67#dfg
