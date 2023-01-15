@@ -6,14 +6,16 @@ def hexadecimalConversion(string):
     for char in string:
         if 'a' <= char <= 'f':
             char = chr(ord(char)+6)
-        conv += char
+        if char == '0':
+            char = 'o'
+        conv += char      
     return conv
 
 def my_printf(format_string, param):
     check = True
     for idx in range(0, len(format_string)):
         if check:
-            if format_string[idx] == '#' and format_string[idx+1] == '.' and format_string[idx+2] == 'Z' and  format_string[idx+3] == 'j' and param.isnumeric():
+            if format_string[idx] == '#' and format_string[idx+1] == '.' and format_string[idx+2].isnumeric() and  format_string[idx+3] == 'j' and param.isnumeric():
                 hexadecimalValue = f"{int(param):x}"
                 print(hexadecimalConversion(hexadecimalValue), end="")
                 check = False
